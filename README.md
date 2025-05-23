@@ -47,4 +47,4 @@ Create a `.env` file in the root:  REACT_APP_API_URL=http://localhost:5000
 git clone https://github.com/your-username/chatty-frontend.git
 cd chatty-frontend
 npm install
-npm start
+npm run dev
