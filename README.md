@@ -3,7 +3,7 @@
 **Chatty** is a real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with WebSocket (Socket.IO) integration. This repository contains **only the frontend** of the application, built using **React.js**.
 
 > ⚠️ **Note:** The backend code is available in a separate repository.  
-👉 [Chatty Backend Repository]([https://github.com/shivamprakash2909/chatty-server.git])
+👉 [Chatty Backend Repository]((https://github.com/shivamprakash2909/chatty-server.git))
 
 ---
 
@@ -29,7 +29,7 @@
 ### Prerequisites
 
 - Node.js
-- Backend server running (see [Chatty Backend](https://github.com/your-username/chatty-backend))
+- Backend server running (see [Chatty Backend](https://github.com/shivamprakash2909/chatty-server.git))
 
 ### Environment Variables
 
