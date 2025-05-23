@@ -6,6 +6,10 @@
 👉 [Chatty Backend Repository](https://github.com/shivamprakash2909/chatty-server.git)
 
 ---
+## 🌐 Live Demo
+
+Check out the deployed frontend of Chatty here:  
+👉 [Chatty Frontend Live](https://chatty-weld-two.vercel.app/login)
 
 ## Features
 
