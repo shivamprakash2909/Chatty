@@ -9,7 +9,7 @@
 ## 🌐 Live Demo
 
 Check out the deployed frontend of Chatty here:  
-👉 [Chatty Frontend Live](https://chatty-weld-two.vercel.app/login)
+👉 [Chatty Frontend Live](https://chatty-weld-two.vercel.app/)
 
 ## Features
 
