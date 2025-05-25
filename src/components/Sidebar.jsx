@@ -8,7 +8,6 @@ const Sidebar = () => {
   const { getUsers, users, selectedUser, setSelectedUser, isUsersLoading } =
     useChatStore();
   const { onlineUsers } = useAuthStore();
-  console.log("here, onlineUsers:", onlineUsers);
 
   const [showOnlineOnly, setShowOnlineOnly] = useState(false);
   useEffect(() => {
