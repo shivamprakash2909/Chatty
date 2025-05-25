@@ -7,7 +7,7 @@ const BASE_URL = import.meta.env.VITE_BASE_URL;
 export const useAuthStore = create((set, get) => ({
   authUser: null,
   isSignUp: false,
-  isLoggin: false,
+  isLogging: false,
   isUpdainggProfile: false,
   isCheckingAuth: true,
   onlineUsers: [],
@@ -27,6 +27,7 @@ export const useAuthStore = create((set, get) => ({
   },
 
   signup: async (data) => {
+    set({ isSignUp: true });
     try {
       const res = await axiosInstance.post("/auth/signup", data);
       set({ authUser: res.data });
@@ -86,11 +87,13 @@ export const useAuthStore = create((set, get) => ({
         userId: authUser._id,
       },
     });
+    console.log("here, 89 socket:", socket);
     socket.connect();
 
     set({ socket: socket });
-
+    console.log("here", 92);
     socket.on("getOnlineUsers", (userIds) => {
+      console.log("here", 94);
       set({ onlineUsers: userIds });
     });
   },
