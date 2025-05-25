@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "routes": [
     {
       "src": "/assets/(.*)",
@@ -8,9 +9,13 @@
     },
     {
       "src": "/(.*)",
+      "dest": "/$1",
+      "continue": true
+    },
+    {
+      "src": "/(.*)",
       "dest": "/index.html"
     }
   ],
-
   "regions": ["bom1"]
 }
